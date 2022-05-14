@@ -249,7 +249,7 @@ module.exports = {
             if (!user.premium) user.premium = false
             if (!user.premium) user.premiumTime= 0
             if (!user.role) user.role = 'Newbie ㋡'
-            if (!('autolevelup' in user)) user.autolevelup = true
+            if (!('autolevelup' in user)) user.autolevelup = false
             if (!('lastIstigfar' in user)) user.lastIstigfar = true
         } else global.db.data.users[m.sender] = {
             healt: 100,
@@ -408,7 +408,7 @@ module.exports = {
             name: this.getName(m.sender),
             age: -1,
             regTime: -1,
-            autolevelup: true,
+            autolevelup: false,
             lastIstigfar: 0,
         }
 
