@@ -13,12 +13,12 @@ function kyun(seconds){
   var seconds = Math.floor(seconds % 60);
 
   //return pad(hours) + ':' + pad(minutes) + ':' + pad(seconds)
-  return `𝙍𝙐𝙉𝙏𝙄𝙈𝙀\n${pad(hours)}H ${pad(minutes)}M ${pad(seconds)}S`
+  return `𝙍𝙐𝙉𝙏𝙄𝙈𝙀\n${pad(hours)}Hours - ${pad(minutes)}Minute - ${pad(seconds)}Seconds`
 }
 					runtime = process.uptime()
 					teks = `${kyun(runtime)}`
 					var itsme = `0@s.whatsapp.net`
-					var split = `Ƙαɴɴαвσт`
+					var split = `SiestaBotz`
 					const rtimebro = {
 					contextInfo: {
 					participant: itsme,

@@ -11,7 +11,7 @@ const ftrol = {
     itemCount : 2022,
     status: 1,
     surface : 1,
-    message: 'Script Lord botz 🗃️', 
+    message: 'Masih Nyari Sc?️', 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch(fla + 'Script')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
@@ -21,15 +21,8 @@ const ftrol = {
 let pp = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=Source+code'
 let info = `◪ 📮 *SCRIPT BOT*
 │ *Script :* 
-│ ╰ https://github.com/Lord-Ammar/Lord-BotV3
-│ *Base :* 
-│ ╰ https://github.com/bochilgaming/games-wabot
-│   https://github.com/kannachann/kanna-wabot
-│ *RestApi :* https://hardianto.xyz
+│ ╰ Masih Nyari Sc?
 ╰──────────═┅═──────────
-📍 *N o t e :* 
-• Jangan lupa minta izin owner sebelum menggunakan scriptnya kak!
-• Jangan Lupa kasih star & kasih credit
 `.trim()
 await conn.send2Button(m.chat, info, `${botol}`, '⋮☰ INFO', '.info', 'OWNER', '.owner', ftrol)
 }

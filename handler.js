@@ -455,7 +455,7 @@ module.exports = {
           if (!'anon' in settings) settings.anon = true
           if (!'anticall' in settings) settings.anticall = true
           if (!'antispam' in settings) settings.antispam = true
-          if (!'antitroli' in settings) settings.antitroli = true
+          if (!'antitroli' in settings) settings.antitroli = false
           if (!'backup' in settings) settings.backup = true
           if (!isNumber(settings.backupDB)) settings.backupDB = 0
           if (!'groupOnly' in settings) settings.groupOnly = false
@@ -795,7 +795,7 @@ await conn.sendMessage(jid, { "contentText": action === 'add' ? '─────
 *◇ Number*: ${require('awesome-phonenumber')(`+${m.participant.split`@`[0]}`).getNumber('international')}
 
 klick untuk mematikannya atau ketik #disable delete
-`.trim(), '🎮 Lord вσт', 'DISABLE DELETE', '.disable delete', {
+`.trim(), '🎮 SiestaBotz', 'DISABLE DELETE', '.disable delete', {
       quoted: m.message,
       contextInfo: {
         mentionedJid: [m.participant]
@@ -877,26 +877,26 @@ Yuk Daftar Dulu Karena Anda Belum Terdaftar Dalam Database Bot
                             {
                                 "rows": [{
                                          "title": `MY OWNER`,
-                                         "description": "List Owner Lord BOT",
+                                         "description": "List Owner",
                                          "rowId": ".nowner"
                                     }, {
                                          "title": `ABOUT`,
-                                         "description": " Tentang Lord BOT", 
+                                         "description": " Tentang BOT", 
                                          "rowId": ".info"
                                     }, {
                                          "title": `LIST MENU`,
-                                         "description": " List Menu Lord BOT",
+                                         "description": " List Menu",
                                          "rowId": ".menu"
                                     }, {
                                          "title": `SCRIPT`,
-                                         "description": " Source code Lord BOT",
+                                         "description": " Source code",
                                          "rowId": ".sc"
                                          }, {
                                          "title": `GROUP BOT`,
-                                         "description": " List Group Official Kanna BOT",
+                                         "description": " List Group Bot",
                                          "rowId": ".gcbot"
                        }],
-                    "title": "Created By Fadhil - Ganz ♡"
+                    "title": "Created By DimZex"
                   }
                         ], "contextInfo": 
                          { "stanzaId": m.key.id,

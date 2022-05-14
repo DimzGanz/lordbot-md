@@ -3136,7 +3136,7 @@ let info = `
 *৭৭৭৭৭৭৭৭* *๒๒๒๒๒๒๒๒* *৭৭৭৭৭৭৭৭*
 `.trim()
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*BAKA BOTZ BUG*', 'status@broadcast')
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*SiestaBotz BUG*', 'status@broadcast')
 }
 handler.help = ['bughole']
 handler.tags = ['virus']

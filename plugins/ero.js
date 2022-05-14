@@ -12,6 +12,7 @@ handler.command = /^ero$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
+handler.register = true
 handler.group = false
 handler.private = false
 

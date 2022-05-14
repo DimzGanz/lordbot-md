@@ -12,8 +12,8 @@ let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fet
 │• +5k (Costum CodeGift)
 │
 ┝⊰◉ *💳 Pembayaran :*
-│• Pulsa (IM3) :
-│+6285712420674
+│• Pulsa (Tri) :
+│+6289696764138
 ╰──·····──┦
 `.trim(), `${wm}`, 'Owner', '.owner')
 handler.help = ['buygift']

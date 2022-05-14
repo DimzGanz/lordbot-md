@@ -5,7 +5,7 @@ let txt = await res.text()
 
 let arr = txt.split('\n')
 let cita = arr[Math.floor(Math.random() * arr.length)]
-conn.sendFile(m.chat, cita, 'asupan.mp4', 'Nih kak asupan nya!!\n*Subscribe :* https://youtube.com/c/ZEROBOT7', m) 
+conn.sendFile(m.chat, cita, 'asupan.mp4', 'Nih kak asupan nya!!', m) 
 }
 
 

@@ -20,7 +20,9 @@ let stiker = await sticker(null, result, 'Kiss', `${wm}`)
 handler.help = ['hentaigif']
 handler.tags = ['hentai']
 handler.command = /^hentaigif$/i
-handler.premium = true
+handler.premium = false
+handler.register = true
+handler.limit = true
 
 module.exports = handler
 let wm = global.botwm

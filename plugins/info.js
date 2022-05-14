@@ -47,7 +47,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
   let str = `
                *ℒ⃝👾 B O T  S T A T I S T I C*
                
-👩🏻‍💻 *Owner:* wa.me/6288229683561
+👩🏻‍💻 *Owner:* wa.me/6289696764138
 🧪 *Mode:* ${global.opts['self'] ? 'Private' : 'Publik'}
 📊 *Versi:* ${package.version}
 💻 *Platform:* Unbuntu Linux
@@ -56,7 +56,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 🧿 *Server:* ${os.hostname()}
 🔎 *Browser:* ${conn.browserDescription[1]}
 *🏢 Hostname:* ${conn.browserDescription[0]}
-📢 *Report:* wa.me/6285600204672
+📢 *Report:* wa.me/6289696764138
 ⭕ *Prefix:* (# / ! .)
 🍃 *Speed:* ${neww - old} *ms*
 👥 *Total user:* ${totalreg} *user*
@@ -76,11 +76,10 @@ let handler  = async (m, { conn, usedPrefix }) => {
 
 *ℒ⃝💻C O N N E C T  W I T H  M E*
 
-⛎ *Api:* http://api-alphabot.herokuapp.com
-♈ *Youtube:* https://bit.ly/AmmarExecuted
-♉ *Github:* https://github.com/Lord-Ammar
-♊ *Insragram:* http://instagram.com/lord_ammar_quoteser
-♏ *Whatsapp:* wa.me/6288229683561
+♈ *Group:* https://tinyurl.com/Grup-SiestaBotz
+♉ *TikTok:* https://vm.tiktok.com/ZSeAJ4MQN/
+♊ *Insragram:* https://www.instagram.com/dimzex
+♏ *Whatsapp:* wa.me/6289696764138
 
 
 

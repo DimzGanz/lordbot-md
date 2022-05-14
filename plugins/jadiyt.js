@@ -13,7 +13,7 @@ conn.sendMessage(m.chat, 'Gk bisa ya?:v', 'extendedTextMessage', { thumbnail: pp
                     title: `${text}`,
                     body: `${text2}`,
                     mediaType: 2,
-                    mediaUrl: 'https://youtu.be/5qap5aO4i9A',
+                    mediaUrl: 'https://youtube.com/c/WindahBasudara',
                     thumbnailUrl: await conn.getProfilePicture(m.sender)
                 }}})
 

@@ -10,8 +10,9 @@ handler.help = ['hentai']
 handler.tags = ['hentai']
 
 handler.command = /^(hentai)$/i
-handler.premium = true
-handler.limit = false
+handler.premium = false
+handler.register = true
+handler.limit = true
 
 module.exports = handler
 

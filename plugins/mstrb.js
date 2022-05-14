@@ -14,13 +14,14 @@ handler.owner = false
 handler.mods = false
 handler.premium = true
 handler.group = false
+handler.register = true
 handler.private = true
 
 handler.admin = false
 handler.botAdmin = false
 
 handler.fail = null
-handler.limit = false
+handler.limit = true
 
 module.exports = handler
 

@@ -12,7 +12,7 @@ let handler = async function(m, { conn , args, text, isAdmin, isBotAdmin, groupM
     await conn.reply(m.chat, `
 *[ CHAT ANTI VIRTEX ]*
 _Terdeteksi *@${asu.split("@")[0]}* telah mengirim virtex!_
-Maaf Kamu akan dikick oleh *MIKE BOT*
+Maaf Kamu akan dikick oleh *SiestaBotz*
 `.trim(), m, { 
       contextInfo: {  
         mentionedJid: [asu]
@@ -21,7 +21,7 @@ Maaf Kamu akan dikick oleh *MIKE BOT*
  if (isBotAdmin) {
    conn.groupRemove(m.chat, [asu])
      } else { 
-     	m.reply('```JADIKAN NEKOBOTZ SEBAGAI ADMIN !!!```')
+     	m.reply('```JADIKAN SiestaBotz SEBAGAI ADMIN !!!```')
     }
   } conn.sendMessage(vir + '@s.whatsapp.net', `${m.text}`, MessageType.text)
 }

@@ -12,15 +12,16 @@ handler.tags = ['hentai']
 handler.command = /^(panties)$/i
 handler.owner = false
 handler.mods = false
-handler.premium = true
+handler.premium = false
 handler.group = false
+handler.register = true
 handler.private = true
 
 handler.admin = false
 handler.botAdmin = false
 
 handler.fail = null
-handler.limit = false
+handler.limit = true
 
 module.exports = handler
 

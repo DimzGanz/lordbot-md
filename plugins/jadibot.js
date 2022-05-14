@@ -24,7 +24,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       }, 30000)
     })
     conn.version = global.conn.version
-    conn.browserDescription = ['Server by Kanna-Bot','Deskop','3.0']
+    conn.browserDescription = ['Server by SiestaBotz','Deskop','3.0']
     conn.welcome = global.conn.welcome + ''
     conn.bye = global.conn.bye + ''
     conn.spromote = global.conn.spromote + ''
@@ -72,9 +72,10 @@ handler.help = ['jadibot']
 handler.tags = ['jadibot', 'premium']
 
 handler.command = /^jadibot$/i
-handler.premium = true
+handler.premium = false
+handler.register = true
 handler.private = true
 
-handler.limit = 1
+handler.limit = 5
 
 module.exports = handler
